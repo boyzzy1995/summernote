@@ -11,17 +11,15 @@
 npm install
 
 # build full version of summernote: dist/summernote.js
-npm run build
+npm run build:web
 
-# generate minified copy: dist/summernote.min.js, dist/summernote.css
-npm run dist
 ```
 At this point, you should now have a `build/` directory populated with everything you need to use summernote.
 
 ## Start local server for developing summernote.
 run local server with connect and watch.
 ```bash
-npm run start
+npm run dev
 # Open a browser on http://localhost:3000.
 # If you change source code, automatically reload your page.
 ```
